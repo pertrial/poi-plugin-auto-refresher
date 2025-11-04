@@ -43,7 +43,7 @@ const initState = {
   /*
      action to trigger upon a match:
 
-     - 'reloadFlash' (default)
+     - 'reload' (default)
      - 'refreshPage'
      - 'toast': use window.toast to pop up a message
      - 'noop': do nothing
@@ -54,7 +54,7 @@ const initState = {
      so it's not really necessary to have an intentional delay
 
    */
-  triggerAction: 'reloadFlash',
+  triggerAction: 'reload',
   /*
      not present in p-state, we have to keep track of mapId ourselves
      because <store>.sortie.sortieMapId is not reliable: both us and <store>.sortie

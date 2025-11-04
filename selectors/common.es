@@ -8,7 +8,7 @@ import {
 import { generalComparator } from 'subtender'
 import { splitMapId } from 'subtender/kc'
 import {
-  gameReloadFlash,
+  gameReload,
   gameRefreshPage,
 } from 'views/services/utils'
 
@@ -96,8 +96,8 @@ const grouppedMapInfoListSelector = createSelector(
 const performTriggerActionFuncSelector = createSelector(
   triggerActionSelector,
   triggerAction => {
-    if (triggerAction === 'reloadFlash') {
-      return gameReloadFlash
+    if (triggerAction === 'reload') {
+      return gameReload
     }
     if (triggerAction === 'refreshPage') {
       return gameRefreshPage

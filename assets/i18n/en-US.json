@@ -32,7 +32,7 @@
   "TriggerAction": {
     "Desc": "Trigger Action",
     "Options": {
-      "reloadFlash": "Reload Flash",
+      "reload": "Reload Flash",
       "refreshPage": "Refresh Page",
       "toast": "Popup Message",
       "noop": "Do nothing"

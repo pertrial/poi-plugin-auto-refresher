@@ -46,7 +46,7 @@ class SettingsImpl extends PureComponent {
                 onSelect={this.handleSelectTriggerAction}
               >
                 {
-                  words('reloadFlash refreshPage toast noop').map(w => (
+                  words('reload refreshPage toast noop').map(w => (
                     <MenuItem key={w} eventKey={w}>
                       {__(`TriggerAction.Options.${w}`)}
                     </MenuItem>

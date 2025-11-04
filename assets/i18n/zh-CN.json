@@ -32,7 +32,7 @@
   "TriggerAction": {
     "Desc": "触发动作",
     "Options": {
-      "reloadFlash": "重载Flash",
+      "reload": "刷新框架",
       "refreshPage": "刷新页面",
       "toast": "弹出消息",
       "noop": "无动作"
